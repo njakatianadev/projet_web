@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyWebSite</title>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>MyWebSite</h1>
+
+		<nav>
+			<ul>
+				<li><a href="">Accueil</a></li>
+				<li><a href="#etapes">Etapes</a>
+
+					<!-- Sous menu Etapes -->
+					<ul>
+						<li><a href="">Conception</a></li>
+						<li><a href="">Developpement & Test</a></li>
+						<li><a href="">Mise en ligne</a></li>
+					</ul>
+                 
+				</li>
+
+				<li><a href="#service">Services</a>
+
+					<!-- Sous menu Service -->
+					<ul>
+						<li><a href="">Creation site Web</a></li>
+						<li><a href="">Hebergement</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div id="all-slider">
+			<ul id="slider">
+				<li class="slide"> <img src="images/slide/images-slide1.jpg" alt="image slider 1"></li>
+				<li class="slide"> <img src="images/slide/images-slide2.jpg" alt="image slider 2"></li>
+				<li class="slide"> <img src="images/slide/images-slide3.jpg" alt="image slider 3"></li>
+				<li class="slide"> <img src="images/slide/images-slide4.jpg" alt="image slider 4"></li>
+				<li class="slide"> <img src="images/slide/images-slide5.jpg" alt="image slider 5"></li>
+			</ul>
+			
+		</div>
+		<div id="titre">
+			<h3>Apprendre a creer un site web <br> en toute simplicite</h3>
+			<button type="button" name="button" class="btn-service"><a href="#service"> Nos Services</a></button>
+			<button type="button" name="button" class="btn-contact"><a href="#contact">Contactez-nous</a></button>
+		</div>
+
+	</header>
+
+	<section id="container">
+
+		<!-- **************************** CONTAINER ******************************* -->
+		<section id="etapes">
+			<h4>Etapes !</h4>
+			<div class="etape1">
+				<img src="images/etapes/conception.png" alt="Image descriptive de Conception">
+				<h4>CONCEPTION</h4>
+				<p>
+					Le W3C ou World Wide Web Consortium, est un organisme international qui développe des standards pour le Web afin que les gens   
+				</p>
+				<button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a> </button>
+			</div>
+			<div class="etape2">
+				<img src="images/etapes/developpement-test.png" alt="Image descriptive de Conception">
+				<h4>Developpement & Test</h4>
+				<p>
+					Le W3C ou World Wide Web Consortium, est un organisme international qui développe des standards pour le Web afin
+				</p>
+				<button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a> </button>
+			</div>
+			<div class="etape3">
+				<img src="images/etapes/mise-en-ligne.png" alt="Image descriptive de Conception">
+				<h4>Mise en ligne</h4>
+				<p>
+					Le W3C ou World Wide Web Consortium, est un organisme international qui développe des standards pour le Web afin que les 
+				</p>
+				<button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a> </button>
+			</div>
+		</section>
+
+		<!-- **************************** SERVICE ******************************* -->
+		<section id="service">
+			<h4>Nos Services</h4>
+			<div class="service1" style="background-image: url(images/services/creer-un-site-web.jpg);">
+				<div class="infos">
+					<h4>Creation de site web</h4>
+					<p>
+						Le W3C ou World Wide Web Consortium, est un organisme international qui développe des standards pour le Web afin que les
+					</p>
+					<button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a> </button>
+				</div>
+			</div>
+			<div class="service2" style="background-image: url(images/services/Hebergement.jpg);">
+				<div class="infos">
+					<h4>Creation de site web</h4>
+					<p>
+						Le W3C ou World Wide Web Consortium, est un organisme international qui développe des standards pour le Web afin que les
+					</p>
+					<button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a> </button>
+				</div>
+			</div>
+		</section>
+
+		<!-- **************************** CONTACT ******************************* -->
+		<section id="contact">
+			<h4>Contactez-Nous</h4>
+			<p>
+				Pour nous contacter merci de nous laisser un message a partir de formulaire de contact ci-dessous
+			</p>
+			<form class="" action="" method="">
+				<label for="">Nom :</label><br>
+				<input type="text" name="" value="" placeholder="Merci de saisir votre nom, Exemple: RAKOTO"><br>
+				<label for="">Prenom(s) :</label><br>
+      			<input type="text" name="" value="" placeholder="Merci de saisir votre prenom, Exemple: Lovasoa"><br>		
+				<label for="">Tel :</label><br>
+				<input type="text" name="" value="" placeholder="Merci de saisir votre numero, Exemple: 0344534567"><br>
+				<label for="">Messages :</label><br>
+				<textarea name="name" rows="3" cols="80" placeholder="Merci de saisir votre messages"></textarea><br>
+				<button type="button" name="button" class="btn-envoyer"><a href="#">Envoyer</a></button>
+			</form>
+			
+		</section>
+	</section>
+
+	<footer>
+		<div id="titre-footer">
+			MyWebSite <span class="point">.</span>
+		</div>
+		<div id="menu-footer">
+			<span>
+				<a href="#"> | ACCUEIL | </a>
+				<a href="#etapes"> | ETAPES | </a>
+				<a href="#service"> | SERVICES | </a>
+				<a href="#contact"> | CONTACT | </a>
+			</span>
+			
+		</div>
+		<div id="copyright">
+			@ 2019 By Espero-Soft Informatique
+		</div>
+	</footer>
+
+</body>
+</html>
